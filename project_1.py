@@ -48,10 +48,11 @@ print("Case1: 5GC000433_01_Feature_Actiovation")
 print("Step1: login to WebUI")
 
 driver = webdriver.Edge()
-driver.get("http://www.python.org")
+driver.get("https://10.101.48.132/")
 
 
 print("Step2: Activate 5GC000433 feature")
 
 print("Step3: Waiting for 15 minutes, check if PM counter is updated")
 print("Step4: Collect Log and analyze")
+
